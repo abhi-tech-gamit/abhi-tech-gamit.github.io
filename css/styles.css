@@ -1,161 +1,47 @@
-body {
-  margin: 0;
-  font-family: 'Fira Mono', 'Consolas', monospace;
-  background: #111;
-  color: #eee;
-  min-height: 100vh;
-  transition: background 0.3s ease, color 0.3s ease;
-  line-height: 1.6;
-}
-
-body.light {
-  background: #f9f9f9;
-  color: #222;
-}
-
-/* Layout */
-header, footer {
-  padding: 1em;
-  text-align: center;
-}
-
-header {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-body.light header {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-footer {
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  font-size: 0.9em;
-  opacity: 0.7;
-}
-
-body.light footer {
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-/* Headings */
-h1, h2 {
-  margin: 0.5em 0;
-  font-weight: 600;
-}
-
-/* Song list */
-ul#song-list {
-  list-style: none;
-  padding: 0;
-  margin: 2em auto;
-  max-width: 500px;
-}
-
-ul#song-list li {
-  padding: 0.9em 1.2em;
-  margin: 0.6em 0;
-  background: #1c1c1c;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: background 0.3s ease, transform 0.2s ease;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.25);
-}
-
-ul#song-list li:hover {
-  background: #2a2a2a;
-  transform: translateY(-2px);
-}
-
-body.light ul#song-list li {
-  background: #fff;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-}
-
-body.light ul#song-list li:hover {
-  background: #f0f0f0;
-}
-
-/* Controls */
-#transpose-controls {
+.song-item {
   display: flex;
-  gap: 1em;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  margin: 1.5em 0;
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
 }
 
-button {
-  font-family: inherit;
-  background: #1565c0;
-  color: #fff;
-  border: none;
-  padding: 0.6em 1.2em;
-  border-radius: 6px;
+.song-title {
   cursor: pointer;
-  transition: background 0.3s ease, transform 0.2s ease;
+  flex-grow: 1;
 }
 
-button:hover {
-  background: #0d47a1;
-  transform: translateY(-1px);
+.song-title:hover {
+  color: #0066cc;
 }
 
-body.light button {
-  background: #1976d2;
-  color: #fff;
+.download-btn {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
 }
 
-body.light button:hover {
-  background: #1565c0;
+.download-btn:hover {
+  background-color: #45a049;
 }
 
-/* Song view */
-#song-view {
-  margin: 2em auto;
-  max-width: 650px;
-  padding: 1em;
+/* Dark mode styles */
+body.dark .song-item {
+  border-bottom-color: #444;
 }
 
-.lyric-line {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin-bottom: 1.5em;
-  width: 100%;
+body.dark .song-title:hover {
+  color: #66aaff;
 }
 
-.chords-row, .lyrics-row {
-  display: flex;
-  gap: 1em;
-  font-size: 1.15em;
-  width: 100%;
+body.dark .download-btn {
+  background-color: #2E7D32;
 }
 
-.chords-row {
-  color: #9fd4ff;
-  font-weight: bold;
-  letter-spacing: 1.5px;
-}
-
-body.light .chords-row {
-  color: #1565c0;
-}
-
-.lyrics-row {
-  color: inherit;
-  font-size: 1.1em;
-}
-
-/* Mobile responsiveness */
-@media (max-width: 700px) {
-  #song-view {
-    max-width: 95vw;
-    font-size: 1em;
-  }
-  ul#song-list {
-    max-width: 95vw;
-  }
-  button {
-    padding: 0.5em 1em;
-  }
+body.dark .download-btn:hover {
+  background-color: #1B5E20;
 }
