@@ -2,27 +2,33 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>View Song</title>
+  <title>Song Viewer - Church Lyrics System</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="css/styles.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 </head>
 <body class="dark">
   <header>
-    <a href="index.html">← All Songs</a>
+    <h1>Church Lyrics System</h1>
     <button id="theme-toggle">Light Mode</button>
   </header>
+
   <main>
-    <h2 id="song-title"></h2>
-    <div id="transpose-controls">
-      <button id="transpose-down">-1</button>
-      <span>Transpose</span>
-      <button id="transpose-up">+1</button>
+    <div id="song-container">
+      <h2 id="song-title"></h2>
+      <div id="transpose-controls">
+        <button id="transpose-down">Transpose Down</button>
+        <button id="transpose-up">Transpose Up</button>
+        <button id="download-pdf">Download PDF</button>
+      </div>
+      <div id="song-view"></div>
     </div>
-    <div id="song-view"></div>
   </main>
+
   <footer>
     <small>Offline & Git-Friendly</small>
   </footer>
+
   <script src="js/app.js"></script>
   <script>
     loadViewer();
