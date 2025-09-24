@@ -11,15 +11,36 @@
     <h1>Church Lyrics System</h1>
     <button id="theme-toggle">Light Mode</button>
   </header>
+
   <main>
+    <!-- 🔍 Search bar -->
+    <div id="search-bar" style="text-align:center; margin: 1em;">
+      <input type="text" id="song-search" placeholder="Search song..." />
+    </div>
+
+    <!-- Song list -->
     <ul id="song-list"></ul>
   </main>
+
   <footer>
     <small>Offline & Git-Friendly</small>
   </footer>
+
   <script src="js/app.js"></script>
   <script>
     loadSongList();
+
+    // 🎵 Song filter logic
+    const searchInput = document.getElementById("song-search");
+    searchInput.addEventListener("input", () => {
+      const filter = searchInput.value.toLowerCase();
+      const songs = document.querySelectorAll("#song-list li");
+      songs.forEach(song => {
+        song.style.display = song.textContent.toLowerCase().includes(filter)
+          ? "block"
+          : "none";
+      });
+    });
   </script>
 </body>
 </html>
