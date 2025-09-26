@@ -1,0 +1,14 @@
+{
+  "title": "Song Title",
+  "key": "C",
+  "lines": [
+    {
+      "lyrics": ["Amazing", "grace", "how", "sweet", "the", "sound"],
+      "chords": ["G", null, "C", null, "G", "G"]
+    },
+    {
+      "lyrics": ["That", "saved", "a", "wretch", "like", "me"],
+      "chords": ["G", "D", null, "G", "D", "G"]
+    }
+  ]
+}
