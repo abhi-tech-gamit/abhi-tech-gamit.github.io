@@ -1,0 +1,102 @@
+{
+  "title": "Tu Mera Hai",
+  "key": "E",
+  "lines": [
+    {
+      "lyrics": ["Abraham", "ka", "prabhu"],
+      "chords": ["E", null, null]
+    },
+    {
+      "lyrics": ["Ishaaq", "ka", "prabhu"],
+      "chords": ["G#m", null, null]
+    },
+    {
+      "lyrics": ["Yakoob", "ka", "prabhu", "tu", "mera", "hai"],
+      "chords": ["F#m", null, null, null, null, "B"]
+    },
+    {
+      "lyrics": ["Tu", "kabhi", "na", "chhodega"],
+      "chords": ["E", null, null, null]
+    },
+    {
+      "lyrics": ["Tu", "kabhi", "na", "thukrayega"],
+      "chords": ["C#m", null, null, null]
+    },
+    {
+      "lyrics": ["Tu", "mera", "hai", "tu", "mera", "hai"],
+      "chords": [null, "A", "B", null, null, null]
+    },
+    {
+      "lyrics": ["Jiske", "haath", "mein", "mera", "kal"],
+      "chords": [null, null, null, null, null]
+    },
+    {
+      "lyrics": ["Jiske", "haath", "mein", "mera", "aaj"],
+      "chords": [null, null, null, null, null]
+    },
+    {
+      "lyrics": ["Aur", "aane", "wala", "kal,", "woh", "mera", "hai"],
+      "chords": [null, null, null, null, null, null, null]
+    },
+    {
+      "lyrics": ["Tu", "kabhi", "na", "chhodega"],
+      "chords": ["E", null, null, null]
+    },
+    {
+      "lyrics": ["Tu", "kabhi", "na", "thukrayega"],
+      "chords": ["C#m", null, null, null]
+    },
+    {
+      "lyrics": ["Tu", "mera", "hai", "tu", "mera", "hai"],
+      "chords": [null, "A", "B", null, null, null]
+    },
+    {
+      "lyrics": ["Nadiya", "mujhe", "dooba", "na", "sake"],
+      "chords": ["E", null, null, null, null]
+    },
+    {
+      "lyrics": ["Agni", "mujhe", "jala", "na", "sake"],
+      "chords": ["C#m", null, null, null, null]
+    },
+    {
+      "lyrics": ["Mera", "haath", "jo", "tune", "thhama", "hai"],
+      "chords": ["A", null, null, null, null, "B"]
+    },
+    {
+      "lyrics": ["Tu", "kabhi", "na", "chhodega"],
+      "chords": ["E", null, null, null]
+    },
+    {
+      "lyrics": ["Tu", "kabhi", "na", "thukrayega"],
+      "chords": ["C#m", null, null, null]
+    },
+    {
+      "lyrics": ["Tu", "mera", "hai", "tu", "mera", "hai"],
+      "chords": [null, "A", "B", null, null, null]
+    },
+    {
+      "lyrics": ["Jo", "aadi", "mein", "tha"],
+      "chords": [null, null, null, null]
+    },
+    {
+      "lyrics": ["Jo", "shabd", "khudha", "sang", "tha"],
+      "chords": [null, null, null, null, null]
+    },
+    {
+      "lyrics": ["Voh", "shabd", "khudha", "hi", "tha", "woh", "mera", "hai"],
+      "chords": [null, null, null, null, null, null, null, null]
+    },
+    {
+      "lyrics": ["Tu", "kabhi", "na", "chhodega"],
+      "chords": ["E", null, null, null]
+    },
+    {
+      "lyrics": ["Tu", "kabhi", "na", "thukrayega"],
+      "chords": ["C#m", null, null, null]
+    },
+    {
+      "lyrics": ["Tu", "mera", "hai", "tu", "mera", "hai"],
+      "chords": [null, "A", "B", null, null, null]
+    }
+  ]
+}
