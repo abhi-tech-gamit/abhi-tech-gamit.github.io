@@ -1,101 +1,101 @@
 {
-  "title": "Tu Mera Hai",
+  "title": "तू मेरा है (Tu Mera Hai)",
   "key": "E",
   "lines": [
     {
-      "lyrics": ["Abraham", "ka", "prabhu"],
+      "lyrics": ["अब्राहम", "का", "प्रभु"],
       "chords": ["E", null, null]
     },
     {
-      "lyrics": ["Ishaaq", "ka", "prabhu"],
+      "lyrics": ["इसहाक", "का", "प्रभु"],
       "chords": ["G#m", null, null]
     },
     {
-      "lyrics": ["Yakoob", "ka", "prabhu", "tu", "mera", "hai"],
+      "lyrics": ["याकूब", "का", "प्रभु", "तू", "मेरा", "है"],
       "chords": ["F#m", null, null, null, null, "B"]
     },
     {
-      "lyrics": ["Tu", "kabhi", "na", "chhodega"],
+      "lyrics": ["तू", "कभी", "न", "छोड़ेगा"],
       "chords": ["E", null, null, null]
     },
     {
-      "lyrics": ["Tu", "kabhi", "na", "thukrayega"],
+      "lyrics": ["तू", "कभी", "न", "ठुकराएगा"],
       "chords": ["C#m", null, null, null]
     },
     {
-      "lyrics": ["Tu", "mera", "hai", "tu", "mera", "hai"],
+      "lyrics": ["तू", "मेरा", "है", "तू", "मेरा", "है"],
       "chords": [null, "A", "B", null, null, null]
     },
     {
-      "lyrics": ["Jiske", "haath", "mein", "mera", "kal"],
+      "lyrics": ["जिसके", "हाथ", "में", "मेरा", "कल"],
       "chords": [null, null, null, null, null]
     },
     {
-      "lyrics": ["Jiske", "haath", "mein", "mera", "aaj"],
+      "lyrics": ["जिसके", "हाथ", "में", "मेरा", "आज"],
       "chords": [null, null, null, null, null]
     },
     {
-      "lyrics": ["Aur", "aane", "wala", "kal,", "woh", "mera", "hai"],
+      "lyrics": ["और", "आने", "वाला", "कल,", "वह", "मेरा", "है"],
       "chords": [null, null, null, null, null, null, null]
     },
     {
-      "lyrics": ["Tu", "kabhi", "na", "chhodega"],
+      "lyrics": ["तू", "कभी", "न", "छोड़ेगा"],
       "chords": ["E", null, null, null]
     },
     {
-      "lyrics": ["Tu", "kabhi", "na", "thukrayega"],
+      "lyrics": ["तू", "कभी", "न", "ठुकराएगा"],
       "chords": ["C#m", null, null, null]
     },
     {
-      "lyrics": ["Tu", "mera", "hai", "tu", "mera", "hai"],
+      "lyrics": ["तू", "मेरा", "है", "तू", "मेरा", "है"],
       "chords": [null, "A", "B", null, null, null]
     },
     {
-      "lyrics": ["Nadiya", "mujhe", "dooba", "na", "sake"],
+      "lyrics": ["नदिया", "मुझे", "डूबा", "न", "सके"],
       "chords": ["E", null, null, null, null]
     },
     {
-      "lyrics": ["Agni", "mujhe", "jala", "na", "sake"],
+      "lyrics": ["अग्नि", "मुझे", "जला", "न", "सके"],
       "chords": ["C#m", null, null, null, null]
     },
     {
-      "lyrics": ["Mera", "haath", "jo", "tune", "thhama", "hai"],
+      "lyrics": ["मेरा", "हाथ", "जो", "तूने", "थामा", "है"],
       "chords": ["A", null, null, null, null, "B"]
     },
     {
-      "lyrics": ["Tu", "kabhi", "na", "chhodega"],
+      "lyrics": ["तू", "कभी", "न", "छोड़ेगा"],
       "chords": ["E", null, null, null]
     },
     {
-      "lyrics": ["Tu", "kabhi", "na", "thukrayega"],
+      "lyrics": ["तू", "कभी", "न", "ठुकराएगा"],
       "chords": ["C#m", null, null, null]
     },
     {
-      "lyrics": ["Tu", "mera", "hai", "tu", "mera", "hai"],
+      "lyrics": ["तू", "मेरा", "है", "तू", "मेरा", "है"],
       "chords": [null, "A", "B", null, null, null]
     },
     {
-      "lyrics": ["Jo", "aadi", "mein", "tha"],
+      "lyrics": ["जो", "आदि", "में", "था"],
       "chords": [null, null, null, null]
     },
     {
-      "lyrics": ["Jo", "shabd", "khudha", "sang", "tha"],
+      "lyrics": ["जो", "शब्द", "खुदा", "संग", "था"],
       "chords": [null, null, null, null, null]
     },
     {
-      "lyrics": ["Voh", "shabd", "khudha", "hi", "tha", "woh", "mera", "hai"],
+      "lyrics": ["वह", "शब्द", "खुदा", "ही", "था", "वह", "मेरा", "है"],
       "chords": [null, null, null, null, null, null, null, null]
     },
     {
-      "lyrics": ["Tu", "kabhi", "na", "chhodega"],
+      "lyrics": ["तू", "कभी", "न", "छोड़ेगा"],
       "chords": ["E", null, null, null]
     },
     {
-      "lyrics": ["Tu", "kabhi", "na", "thukrayega"],
+      "lyrics": ["तू", "कभी", "न", "ठुकराएगा"],
       "chords": ["C#m", null, null, null]
     },
     {
-      "lyrics": ["Tu", "mera", "hai", "tu", "mera", "hai"],
+      "lyrics": ["तू", "मेरा", "है", "तू", "मेरा", "है"],
       "chords": [null, "A", "B", null, null, null]
     }
   ]
