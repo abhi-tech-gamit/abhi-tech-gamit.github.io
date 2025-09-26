@@ -116,34 +116,42 @@ body.light button:hover {
   padding: 1em;
 }
 
-.lyric-line {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin-bottom: 1.5em;
-  width: 100%;
+/* Updated chord-lyric alignment styles */
+.song-line {
+  position: relative;
+  margin-bottom: 1.8em;
+  min-height: 2.5em;
 }
 
-.chords-row, .lyrics-row {
-  display: flex;
-  gap: 1em;
-  font-size: 1.15em;
+.chords-line {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-}
-
-.chords-row {
+  height: 1.2em;
   color: #9fd4ff;
   font-weight: bold;
   letter-spacing: 1.5px;
+  z-index: 1;
 }
 
-body.light .chords-row {
-  color: #1565c0;
-}
-
-.lyrics-row {
-  color: inherit;
+.lyrics-line {
+  position: relative;
+  z-index: 2;
+  padding-top: 1.2em;
+  white-space: pre;
   font-size: 1.1em;
+}
+
+.chord {
+  position: absolute;
+  display: inline-block;
+  text-align: center;
+  min-width: 1.5em;
+}
+
+body.light .chords-line {
+  color: #1565c0;
 }
 
 /* Mobile responsiveness */
