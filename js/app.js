@@ -80,30 +80,62 @@ async function loadViewer() {
   function renderSong() {
     const view = document.getElementById('song-view');
     view.innerHTML = '';
+    
     song.lines.forEach(line => {
+      // Create a container for the entire line
       const lineDiv = document.createElement('div');
-      lineDiv.className = 'lyric-line';
-
-      // Chords above lyrics
-      const chordsRow = document.createElement('div');
-      chordsRow.className = 'chords-row';
-      line.chords.forEach(chord => {
-        const transposed = chord ? transposeChord(chord, transpose) : '';
+      lineDiv.className = 'song-line';
+      
+      // Create chord line
+      const chordLine = document.createElement('div');
+      chordLine.className = 'chords-line';
+      
+      // Create lyric line
+      const lyricLine = document.createElement('div');
+      lyricLine.className = 'lyrics-line';
+      
+      // Build the full lyric text to calculate positions
+      let lyricText = '';
+      let chordPositions = [];
+      
+      // Process each word and its chord
+      for (let i = 0; i < line.lyrics.length; i++) {
+        const word = line.lyrics[i];
+        const chord = line.chords[i] ? transposeChord(line.chords[i], transpose) : '';
+        
+        // Add the word to the lyric text
+        if (i > 0) {
+          lyricText += ' ';
+        }
+        lyricText += word;
+        
+        // If there's a chord, record its position
+        if (chord) {
+          chordPositions.push({
+            chord: chord,
+            position: lyricText.length - word.length
+          });
+        }
+      }
+      
+      // Set the lyric text
+      lyricLine.textContent = lyricText;
+      
+      // Position each chord above its corresponding word
+      chordPositions.forEach(chordInfo => {
         const chordSpan = document.createElement('span');
-        chordSpan.textContent = transposed;
-        chordsRow.appendChild(chordSpan);
+        chordSpan.className = 'chord';
+        chordSpan.textContent = chordInfo.chord;
+        
+        // Calculate position based on character index
+        // Using 0.6em as approximate width of a monospace character
+        chordSpan.style.left = `${chordInfo.position * 0.6}em`;
+        
+        chordLine.appendChild(chordSpan);
       });
-
-      const lyricsRow = document.createElement('div');
-      lyricsRow.className = 'lyrics-row';
-      line.lyrics.forEach(word => {
-        const wordSpan = document.createElement('span');
-        wordSpan.textContent = word;
-        lyricsRow.appendChild(wordSpan);
-      });
-
-      lineDiv.appendChild(chordsRow);
-      lineDiv.appendChild(lyricsRow);
+      
+      lineDiv.appendChild(chordLine);
+      lineDiv.appendChild(lyricLine);
       view.appendChild(lineDiv);
     });
   }
